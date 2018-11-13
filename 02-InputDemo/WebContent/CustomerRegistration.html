@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link href = "Style.css" rel ="Stylesheet">
+</head>
+<body>
+	<form action="pnp">
+		<table>
+			<tr>
+				<td>Customer Id</td>
+				<td><input type="text" name="textId"></td>
+			</tr>
+
+			<tr>
+				<td>Customer Name</td>
+				<td><input type="text" name="textName"></td>
+			</tr>
+
+			<tr>
+				<td>Customer Gender</td>
+				<td><input type="radio" name="radGender" value='1' checked>Male
+					<input type="radio" name="radGender" value='2'>Female</td>
+			</tr>
+
+			<tr>
+				<td>Customer Phone Number</td>
+				<td><input type="text" name="textPhoneNumber"></td>
+			</tr>
+
+			<tr>
+				<td>Customer Email</td>
+				<td><input type="email" name="textEmail"></td>
+			</tr>
+
+			<tr>
+				<td>Customer Address</td>
+				<td><input type="text" name="textAddress"></td>
+			</tr>
+
+			<tr>
+				<td>Customer Date of joining</td>
+				<td><input type="date" name="textdoj"></td>
+			</tr>
+
+			<tr>
+				<td>Description</td>
+				<td colspan='2'><textarea rows='10' cols="80" name="textDesc"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td>Balance</td>
+				<td><input type="text" name="textBal"></td>
+			</tr>
+
+			<!-- <tr>
+				<td>Customer Rating</td>
+				<td><input type="radio" name="textRating" value='5' checked>Excellent
+					<input type="radio" name="textRating" value='4' >good
+					<input type="radio" name="textRating" value='3' >Average
+					<input type="radio" name="textRating" value='2' >Poor
+					<input type="radio" name="textRating" value='1' >Bad
+					
+			</tr> -->
+			
+			<tr>
+			<td> Select rating </td>
+			<td>
+			<select name = "textRating">
+			<option value ='0'> Poor </option>
+			<option value ='1'> Average </option>
+			<option value ='2'> Good </option>
+			<option value ='3'> Excellent </option>
+			</select>
+			
+
+			<tr>
+				<td colspan='2'><input type="checkbox" name="chkPriviliged"
+					value="Yes">Is Priviliged?</td>
+			</tr>
+
+			<tr>
+				<td colspan='2'><input type="submit" value="Send"></td>
+			</tr>
+
+		</table>
+
+	</form>
+</body>
+</html>

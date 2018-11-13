@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+table {
+	border : solid;
+	background-color: silver;
+	width: 8cm;
+	height: 5cm; 
+}

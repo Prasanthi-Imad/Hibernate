@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>01-WebIntro</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>FirstServlet</servlet-name>
+    <servlet-class>com.training.ui.IntroServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FirstServlet</servlet-name>
+    <url-pattern> /first </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DemoServlet</servlet-name>
+    <servlet-class>com.training.ui.DemoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DemoServlet</servlet-name>
+    <url-pattern> /demo </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Employee Servlet</servlet-name>
+    <servlet-class>com.training.ui.EmpServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Employee Servlet</servlet-name>
+    <url-pattern> /emp </url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Student Servlet</servlet-name>
+    <servlet-class>com.training.ui.StudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Student Servlet</servlet-name>
+    <url-pattern> /student </url-pattern>
+  </servlet-mapping>
+</web-app>
